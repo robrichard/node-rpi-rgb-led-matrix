@@ -14,7 +14,7 @@
 				"external/matrix/lib/graphics.cc", "external/matrix/lib/led-matrix.cc",
 				"external/matrix/lib/thread.cc"],
 			"libraries": ["-lrt", "-lm", "-lpthread"],
-			"defines": ["ADAFRUIT_RGBMATRIX_HAT_PWM", "LSB_PWM_NANOSECONDS=400"],
+			"defines": ["ADAFRUIT_RGBMATRIX_HAT_PWM", "LSB_PWM_NANOSECONDS=1000"],
 			"include_dirs": [ "external/matrix/include" ],
 	        "direct_dependent_settings": {
 	            "include_dirs": [ "external/matrix/include" ]
